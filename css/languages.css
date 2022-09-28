@@ -1,4 +1,8 @@
-.lang{
-    margin-top: 200px;
+div.lang{
+    margin-top: 300px;
     text-align: center;
+    border-radius: 2em;
+}
+div > p{
+    padding-top: 20px;
 }
