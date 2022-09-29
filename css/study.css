@@ -1,10 +1,13 @@
 .study1{
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .study1, .study2{
     text-align: center;
 }
 .h1{
     margin-bottom: 5% !important;
+}
+.image{
+    margin-bottom: 5%;
 }
