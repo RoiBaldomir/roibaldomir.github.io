@@ -1,4 +1,7 @@
 .exp1, .exp2{
     text-align: center;
-    margin-top: 120px
+    margin-top: 10%;
+}
+.h1{
+    margin-bottom: 5% !important;
 }
