@@ -1,7 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.title{
-    margin-top: 15%;
+.titulos{
     text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.texto{
+    text-align: center;
+}
+.rrss{
+    text-align: center;
+}
+.pie{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 1%;
 }
