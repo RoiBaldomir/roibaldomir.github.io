@@ -12,6 +12,9 @@ body{
 .rrss{
     text-align: center;
 }
+.rrss > a:hover{
+    opacity: 0.5;
+}
 .pie{
     text-align: center;
     padding-top: 10%;
