@@ -1,22 +1,26 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.titulos{
+p{
     text-align: center;
-    padding-bottom: 5%;
-    padding-top: 20%;
 }
-.texto{
-    text-align: center;
+.section{
+    margin-top: 7%;
+    border-radius: 2em;
+    border: 1px solid lightblue;
+    padding: 2%;
+}
+.title{
+    margin-bottom: 3% !important;
 }
 .rrss{
     text-align: center;
 }
-.rrss > a:hover{
-    opacity: 0.5;
+.rrss > a:hover {
+   opacity: 0.7; 
 }
 .pie{
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
