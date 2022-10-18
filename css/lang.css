@@ -13,12 +13,6 @@ p{
 .title{
     margin-bottom: 3% !important;
 }
-.rrss{
-    text-align: center;
-}
-.rrss > a:hover {
-   opacity: 0.7; 
-}
 .pie{
     text-align: center;
 }
