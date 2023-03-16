@@ -1,12 +1,3 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: aliceblue;
-}
-div.title{
-    text-align: center;
-}
-div.footer > ul{
-    list-style-type: none;
-}
