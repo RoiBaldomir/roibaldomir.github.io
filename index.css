@@ -62,3 +62,6 @@ body{margin-top:20px;}
     border-radius: 6.25rem;
     opacity: .5
 }
+.navbar .navbar-collapse {
+    text-align: center;
+  }
