@@ -68,7 +68,19 @@ body{
   }
   .subtitles {
     font-weight: bold;
+    font-size: 50px;
+  }
+  .subtitles2{
+    font-weight: bold;
   }
   .texts {
     font-size: 20px;
+  }
+  .navtext{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .navtitle{
+    font-size: 1.8rem;
+    font-weight: bold;
   }
