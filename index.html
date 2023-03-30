@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.bundle.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+    </style>
 </head>
 <body class="bg-light">
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark mb-5">
@@ -36,14 +39,13 @@
       </div>
     </div>
   </nav>
-  <section class="d-flex justify-content-center align-items-center" id="header">
+  <section class="d-flex justify-content-center align-items-center py-3" id="header">
     <div class="container">
       <div class="row">
         <div class="col-lg-7 col-md-12 col-12">
-          <p>¡Bienvenido a mi web!</p>
-          <p class="h1">Hola! soy</p>
-          <p class="h1">Roi Baldomir</p>
-          <p>Soy un Desarrollador web junior. ¡Puedes contactarme a través de mi email o de mis redes sociales!</p>
+          <p class="text-secondary intro mt-5">¡Bienvenido a mi web!</p>
+          <h1 class="titles mb-4">Hola! soy Roi Baldomir</h1>
+          <p class="text-secondary" style="font-size: 20px;">Soy un Desarrollador web junior. ¡Puedes contactarme a través de mi email o de mis redes sociales!</p>
           <div class="d-flex justify-content-center mt-4">
             <a class="pe-4" style="text-decoration: none;" href="mailto:roi.baldomir@gmail.com">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -68,19 +70,19 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="py-3">
     <div class="container">
       <div>
-        <p class="h2 text-center mt-5">Sobre mí</p>
-        <p class="text-center mb-5">Soy un técnico superior en desarrollo de aplicaciones web y en administración y finanzas, apasionado de la informática y de la tecnología desde que era un niño. Estos últimos años me he estado formando como desarrollador web con el objetivo de entrar en el sector y desarrollarme profesionalmente en él.</p>
+        <h2 class="text-center mt-5 mb-4 subtitles">Sobre mí</h2>
+        <p class="text-center mb-5 text-secondary texts">Soy un técnico superior en desarrollo de aplicaciones web y en administración y finanzas, apasionado de la informática y de la tecnología desde que era un niño. Estos últimos años me he estado formando como desarrollador web con el objetivo de entrar en el sector y desarrollarme profesionalmente en él.</p>
       </div>
     </div>
   </section>
-  <section class="resume py-5 d-lg-flex justify-content-center align-items-center">
+  <section class="py-3 d-lg-flex justify-content-center align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-12">
-          <h2 class="mb-5 text-center">Formación</h2>
+          <h2 class="mb-5 text-center subtitles">Formación</h2>
           <div class="timeline">
 
             <div class="timeline-wrapper">
@@ -88,8 +90,8 @@
                 <span>2023</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Big Data</span><small>The Valley Digital Business School</small></h3>
-                <p>Aprendí Google Analytics, fundamentos de Machine Learning, Python y SQL aplicados a mundo de los datos y Apache Spark.</p>
+                <h3><span class="subtitles">Big Data</span><small>The Valley Digital Business School</small></h3>
+                <p class="text-secondary">Aprendí Google Analytics, fundamentos de Machine Learning, Python y SQL aplicados a mundo de los datos y Apache Spark.</p>
               </div>
             </div>
 
@@ -98,8 +100,8 @@
                 <span>2020/22</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Desarrollo de Aplicaciones Web</span><small>CPR A Fundación</small></h3>
-                <p>Terminé el Ciclo Superior de Desarrollo de Aplicaciones Web en 2022.</p>
+                <h3><span class="subtitles">Desarrollo de Aplicaciones Web</span><small>CPR A Fundación</small></h3>
+                <p class="text-secondary">Terminé el Ciclo Superior de Desarrollo de Aplicaciones Web en 2022.</p>
               </div>
             </div>
 
@@ -108,8 +110,8 @@
                 <span>2020</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Inglés B2</span><small>Cámara de Comercio A Coruña</small></h3>
-                <p>Con este curso conseguí el nivel B2 de inglés.</p>
+                <h3><span class="subtitles">Inglés B2</span><small>Cámara de Comercio A Coruña</small></h3>
+                <p class="text-secondary">Con este curso conseguí el nivel B2 de inglés.</p>
               </div>
             </div>
 
@@ -118,8 +120,8 @@
                 <span>2016/18</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Administración y Finanzas</span><small>CPR A Fundación</small></h3>
-                <p>Terminé el Ciclo Superior de Administración y Finanzas en 2018.</p>
+                <h3><span class="subtitles">Administración y Finanzas</span><small>CPR A Fundación</small></h3>
+                <p class="text-secondary">Terminé el Ciclo Superior de Administración y Finanzas en 2018.</p>
               </div>
             </div>
 
@@ -127,7 +129,7 @@
         </div>
 
         <div class="col-lg-6 col-12">
-          <h2 class="mb-5 mobile-mt-2 text-center">Experiencia</h2>
+          <h2 class="mb-5 mobile-mt-2 text-center subtitles">Experiencia</h2>
 
           <div class="timeline">
 
@@ -136,8 +138,8 @@
                 <span>2022</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Desarrollador web en prácticas</span><small>Pululart, S.L.</small></h3>
-                <p>Estuve añadiendo funcionalidades a sitios web hechos en PHP y desarrollando una aplicación web con React y PHP.</p>
+                <h3><span class="subtitles">Desarrollador web en prácticas</span><small>Pululart, S.L.</small></h3>
+                <p class="text-secondary">Estuve añadiendo funcionalidades a sitios web hechos en PHP y desarrollando una aplicación web con React y PHP.</p>
               </div>
             </div>
 
@@ -146,8 +148,8 @@
                 <span>2018</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Administrativo en prácticas</span><small>Hércules Formación, S.L.</small></h3>
-                <p>Estuve preparando la documentación de los cursos ofertados por la empresa y gestionando la base de datos de cursos.</p>
+                <h3><span class="subtitles">Administrativo en prácticas</span><small>Hércules Formación, S.L.</small></h3>
+                <p class="text-secondary">Estuve preparando la documentación de los cursos ofertados por la empresa y gestionando la base de datos de cursos.</p>
               </div>
             </div>
           </div>
@@ -157,14 +159,14 @@
   </section>
   <section class="py-5">
     <div class="container">
-      <p class="h2 text-center mb-5" id="proyectos">Proyectos</p>
+      <h2 class="text-center mb-5 subtitles" id="proyectos">Proyectos</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-around text-center">
         <div class="col">
           <div class="card h-100">
             <a href="https://github.com/RoiBaldomir/proyecto-fdc"><img src="img/gamelist.png" class="w-75 mx-auto" alt="gamelist"></a>
             <div class="card-body">
-              <h5 class="card-title">Gamelist</h5>
-              <p class="card-text">
+              <h4 class="card-title subtitles">Gamelist</h4>
+              <p class="card-text text-secondary">
                 Aplicación web en PHP que permite a sus usuarios crear listas de sus videojuegos favoritos.
               </p>
             </div>
@@ -174,8 +176,8 @@
           <div class="card h-100">
             <a href="https://github.com/RoiBaldomir/roibaldomir.github.io"><img src="img/github.svg" class="w-50 mx-auto" alt="github"></a>
             <div class="card-body">
-              <h5 class="card-title">Página personal</h5>
-              <p class="card-text">
+              <h4 class="card-title subtitles">Página personal</h4>
+              <p class="card-text text-secondary">
                 Página estática almacenada en GitHub Pages realizada con HTML, CSS y Bootstrap.
               </p>
             </div>
